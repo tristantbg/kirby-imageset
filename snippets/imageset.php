@@ -67,7 +67,7 @@ else: ?>
       ?><img src="<?= $imageset->src() ?>" srcset="<?= $imageset->srcset() ?>" class="<?= $imageset->className('__fallback') ?>" alt="<?= $imageset->alt() ?>"<?= $imageset->sizesAttributes(false) ?>><?php
       endif;
     else:
-    ?><img src="<?= $imageset->src() ?>" srcset="<?= $imageset->srcset() ?>" alt="<?= $imageset->alt() ?>" class="<?= $imageset->className('__fallback') ?>"<?= $imageset->sizesAttributes(false) ?>><?php
+    ?><img src="<?= $imageset->src() ?>" srcset="<?= $imageset->srcset() ?>" alt="<?= $imageset->alt() ?>" class="<?= $imageset->className('__fallback') ?>"<?= $imageset->sizesAttributes(false) ?> /><?php
     endif; ?></noscript><?php
   endif; ?>
 </span>
